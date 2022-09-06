@@ -34,7 +34,9 @@ git clone https://github.com/opencv/opencv_contrib.git
 
 cd opencv
 mkdir build && cd build
-********************* start 这是一条命令*********************
+
+ ********************* start 这是一条命令*********************
+ 
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
 -D WITH_CUDA=OFF \
@@ -48,7 +50,8 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D PYTHON3_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.10.so.1.0 \
 -D BUILD_opencv_hdf=OFF \
 -D BUILD_EXAMPLES=OFF ..
-********************* end 这是一条命令*********************
+
+ ********************* end 这是一条命令*********************
 
 ** 解析：
 OPENCV_EXTRA_MODULES_PATH 为 https://github.com/opencv/opencv_contrib.git 源码路径
